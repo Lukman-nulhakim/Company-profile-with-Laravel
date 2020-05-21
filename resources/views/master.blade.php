@@ -19,7 +19,7 @@
     <body class="size-1140">
 
         @include('include.header')
-<h1>ini cuma buat ngecek hapus aja</h1>
+
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <img src="img/jumbotron1.jpg" class="img-fluid" alt="Responsive image">
