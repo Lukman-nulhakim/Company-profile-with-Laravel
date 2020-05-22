@@ -1,25 +1,27 @@
-<a target="_blank" class="hide-s" href="../template/eleganter-premium-responsive-business-template/" style="position:fixed;top:120px;right:-14px;z-index:10;"></a>
     <!-- HEADER -->
-    <header role="banner" class="position-fixed">    
-      <!-- Top Navigation -->
-      <nav class="" style="background-color: rgba(0,0,0,.5);">
-        <div class="s-12 l-2">
-          <a href="index.html" class="logo">
-            <!-- Logo White Version -->
-            <img class="logo-white" src="img/logo.png" alt="">
-            <!-- Logo Dark Version -->
-          </a>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container py-2">
+        <img src="img/logo.png" alt="Responsive image">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link @yield('Home')" href="/home">Home</a>
+            <a class="nav-link @yield('About')" href="/about">About</a>
+            <a class="nav-link @yield('Produk')" href="/produk">Produk</a>
+            <a class="nav-link @yield('Service')" href="/service">Service</a>
+            <a class="nav-link @yield('Portfolio')" href="/portfolio">Portfolio</a>
+            <a href="#" class="btn btn-primary rounded-pill">Join Us</a>
+          </div>
         </div>
-        <div class="top-nav s-12 l-10">
-          <p class="nav-text"></p>
-          <ul class="right chevron">
-            <li><a href="/home" class="nav-link @yield('Home')">Home</a></li>
-            <li><a href="/produk" class="nav-link @yield('Produk')">Produk</a></li>
-            <li><a href="/service" class="nav-link @yield('Service')">Service</a></li>
-            <li><a href="about" class="nav-link @yield('About')">About</a></li>
-            <li><a href="portfolio" class="nav-link @yield('Portfolio')">Portfolio</a></li>
-            <li><a href="#" class="nav-link @yield('Contact')">Contact</a></li>
-          </ul>
+      </div>
+    </nav>
+
+{{-- Jumbotron --}}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Welcome To The Extraordinary <br><span>Technology Company</span></h1>
         </div>
-      </nav>
-    </header>
+      </div>

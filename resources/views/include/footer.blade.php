@@ -1,13 +1,8 @@
-<!-- FOOTER -->
-    <footer>
-      <!-- Main Footer -->
-      <section class="background-dark text-center full-width">
-        <!-- Map -->
-        
-        <!-- Collumn 2 -->
-        <div class="footer bg-dark py-5">
+{{-- Footer --}}
+
+    <div class="footer">
         <div class="container">
-            <div class="row">
+            <div class="row py-5">
                 <div class="col-12 col-lg-6 col-xl-6">
                     <h2 style="color: peru; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 60px;">
                         Eleganter</h2>
@@ -48,18 +43,3 @@
     </div>
 
 
-
-    </section>
-      <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
-      
-      <!-- Bottom Footer -->
-      <section class="padding background-dark full-width">
-        <div class="s-12 l-6">
-          <p class="text-size-12">Copyright 2019, Vision Design - graphic zoo</p>
-          <p class="text-size-12">All images have been purchased from Bigstock. Do not use the images in your website.</p>
-        </div>
-        <div class="s-12 l-6">
-          <a class="right text-size-12" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding<br> by Responsee Team</a>
-        </div>
-      </section>
-    </footer>

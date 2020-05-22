@@ -1,3 +1,93 @@
-.jumbotron1 img {
-    opacity: 0.5;
+/* navbar */
+
+.navbar {
+    background-color: #343A40;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    text-align: center;
+}
+
+
+/* Logo navbar */
+
+.container img {
+    width: 250px;
+}
+
+
+/* jumbotron */
+
+.jumbotron {
+    background-image: url(../img/jumbotron1.jpg);
+    background-size: cover;
+    height: 640px;
+    background-attachment: fixed;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 50;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 300;
+    color: peru;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #040E27;
+}
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+    .container img {
+        width: 250px;
+    }
+    .navbar-brand,
+    .nav-link {
+        color: rgb(255, 255, 255) !important;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #054296;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .navbar {
+        background-color: rgb(0, 0, 0);
+        opacity: 0.5;
+        position: fixed;
+    }
+    .nav-link {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    /* jumbotron */
+    .jumbotron {
+        margin-top: -10px;
+    }
+    .jumbotron .display-4 {
+        font-weight: 300;
+    }
+    .jumbotron .display-4 span {
+        font-weight: 700;
+    }
 }

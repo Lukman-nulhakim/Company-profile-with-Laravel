@@ -6,7 +6,7 @@
 
 {{-- Content --}}
 
-<h1>ini halaman portfolio</h1>
+
 
 {{-- endContent --}}
 
