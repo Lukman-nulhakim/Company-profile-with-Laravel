@@ -13,7 +13,7 @@
             <a class="nav-link @yield('Produk')" href="/produk">Produk</a>
             <a class="nav-link @yield('Service')" href="/service">Service</a>
             <a class="nav-link @yield('Portfolio')" href="/portfolio">Portfolio</a>
-            <a href="#" class="btn btn-primary rounded-pill">Join Us</a>
+            <a href="#" class="btn btn-primary rounded-pill my-1">Join Us</a>
           </div>
         </div>
       </div>
