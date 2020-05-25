@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="{{ asset('css/portfolio.css') }}">
     <link rel="stylesheet" href="{{ asset('fontawesome-free-5.13.0-web/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/service.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Rokkitt:wght@500;800&family=Russo+One&display=swap" rel="stylesheet">
+    {{-- yang diatas google fonst buat halaman home   --}}
 
 </head>
     <body>
