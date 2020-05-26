@@ -5,38 +5,38 @@
 
 
 {{-- Content --}}
-<div class="container-about">
-    <div class="row">
-        <div class="col-md-8 mb-4">
-            <div class="card-about">
-                <div class="card-body">
-                    <h2>About</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat, dolorum quaerat cum facere quae excepturi explicabo ea tempore corporis quam ratione consectetur ipsa esse laudantium deleniti officia veritatis veniam!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat, dolorum quaerat cum facere quae excepturi explicabo ea tempore corporis quam ratione consectetur ipsa esse laudantium deleniti officia veritatis veniam!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat, dolorum quaerat cum facere quae excepturi explicabo ea tempore corporis quam ratione consectetur ipsa esse laudantium deleniti officia veritatis veniam!
-                    </p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 mb-4">
+                <div class="card-about">
+                    <div class="card-body">
+                        <h2>About</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat, dolorum quaerat cum facere quae excepturi explicabo ea tempore corporis quam ratione consectetur ipsa esse laudantium deleniti officia veritatis veniam!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat, dolorum quaerat cum facere quae excepturi explicabo ea tempore corporis quam ratione consectetur ipsa esse laudantium deleniti officia veritatis veniam!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat, dolorum quaerat cum facere quae excepturi explicabo ea tempore corporis quam ratione consectetur ipsa esse laudantium deleniti officia veritatis veniam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card">
+                        <img src="img/about-1.jpg" class="card-img-top" alt="Gambar">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <div class="card">
-                    <img src="img/about-1.jpg" class="card-img-top" alt="Gambar">
-                 </div>
-            </div>
-        </div>
     </div>
-</div>
-<div class="container content">
-        <div class="row text-center about mt-5xx">
+    <div class="container content">
+        <div class="row text-center about mt-5">
             <div class="col">
                 <h2>About Us</h2>
-                <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Quibusdam itaque necessitatibus ea voluptatem deserunt perspiciatis illo, 
                     vitae quia, dolorum fugiat architecto assumenda molestias qui impedit ullam? 
                     Atque veritatis quia odit.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -45,17 +45,17 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbotron-fluid">
+    
         <div class="container content services">
-            <div class="row text-center">
+            <div class="row mt-5 text-center">
                 <div class="col">
                     <h2>Business</h2>
                 </div>
             </div>
-            <div class="row mt-5xx mb-5">
+            <div class="row mt-3 mb-5">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
                     <div class="rounded-circle icon m-auto">
-                        <i class="fas fa-balance-scale"></i>
+                        <i class="fa-7x fas fa-balance-scale"></i>
                     </div>
                     <h6 class="mt-3">Balance scale</h6>
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
                     <div class="rounded-circle icon m-auto">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fa-7x fas fa-handshake"></i>
                     </div>
                     <h6 class="mt-3">Business Meetings</h6>
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
                     <div class="rounded-circle icon m-auto">
-                        <i class="fas fa-business-time"></i>
+                        <i class="fa-7x fas fa-business-time"></i>
                     </div>
                     <h6 class="mt-3">Business Time</h6>
                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </div>
-    </div>
+
     <div class="container content mb-5">
         <div class="row mt-4xx">
             <div class="col">

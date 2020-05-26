@@ -5,7 +5,7 @@
 
 
 {{-- Content --}}
-<div class="container content">
+    <div class="container content">
         <div class="row text-center about mt-5xx">
             <div class="col">
                 <h2>Business Product</h2>

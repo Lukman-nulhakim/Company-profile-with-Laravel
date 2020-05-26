@@ -1,167 +1,225 @@
-.home-cliens{
+.home-cliens {
     background-color: #79cee2;
     margin-top: -40px;
 }
 
-.home-cliens img{
+.home-cliens img {
     width: 150px;
     height: 50px;
     transition: all 0.4s ease-in-out;
 }
 
-.home-cliens img:hover{
+.home-cliens img:hover {
     transform: scale(1.5);
-
 }
 
-.home-about h1{
+.home-about h1 {
     font-size: 50px;
     color: peru;
-    font-family:'Rokkitt', serif;
+    font-family: 'Rokkitt', serif;
     font-weight: bolder;
 }
 
-
-.home-about-img{
-
+.home-about-img {
     animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
-.home-about-img img{
+.home-about-img img {
     width: 350px;
     height: 350px;
 }
 
-@keyframes up-down{
-    0%{
+@keyframes up-down {
+    0% {
         transform: translateY(0px);
     }
-    100%{
+    100% {
         transform: translateY(-10px);
     }
 }
 
-.home-about-2{
+.home-about-2 {
     background-color: #CCFFE5;
 }
 
-.home-about-2 ul li{
+.home-about-2 ul li {
     list-style: none;
     font-size: 20px;
 }
 
-.home-about-2 h2{
+.home-about-2 h2 {
     font-family: 'Rokkitt', serif;
 }
 
-.home-about-2 li{
+.home-about-2 li {
     font-family: 'Rokkitt', serif;
 }
 
-.home-about-3{
-    font-family:'Rokkitt', serif;
+.home-about-3 {
+    font-family: 'Rokkitt', serif;
     color: peru;
 }
 
-.home-persentase{
-    width: 500px;
+.home-persentase {
+    width: 400px;
     height: 20px;
     background-color: grey;
     border-radius: 5px;
 }
 
-.home-skala{
+.home-skala {
     height: 15px;
     background-color: lightskyblue;
     animation: skala 3s ease-in-out infinite alternate-reverse both;
     border-radius: 5px;
-    
 }
 
-.home-skala-90{
+.home-skala-90 {
     height: 15px;
     background-color: lightskyblue;
     animation: skala-90 3s ease-in-out infinite alternate-reverse both;
     border-radius: 5px;
-    
 }
 
-.home-skala-80{
+.home-skala-80 {
     height: 15px;
     background-color: lightskyblue;
     animation: skala-80 3s ease-in-out infinite alternate-reverse both;
     border-radius: 5px;
-    
 }
 
-.home-skala-60{
+.home-skala-60 {
     height: 15px;
     background-color: lightskyblue;
     animation: skala-60 3s ease-in-out infinite alternate-reverse both;
     border-radius: 5px;
-    
 }
 
-@keyframes skala{
-    0%{
+@keyframes skala {
+    0% {
         width: 0px;
     }
-    100%{
-        width: 500px;
+    100% {
+        width: 400px;
     }
 }
 
-@keyframes skala-90{
-    0%{
+@keyframes skala-90 {
+    0% {
         width: 0px;
     }
-    100%{
-        width: 450px;
+    100% {
+        width: 350px;
     }
 }
 
-@keyframes skala-80{
-    0%{
+@keyframes skala-80 {
+    0% {
         width: 0px;
     }
-    100%{
-        width: 420px;
+    100% {
+        width: 320px;
     }
 }
 
-@keyframes skala-60{
-    0%{
+@keyframes skala-60 {
+    0% {
         width: 0px;
     }
-    100%{
-        width: 300px;
+    100% {
+        width: 200px;
     }
 }
 
-.home-team{
+.home-team {
     background-color: #CCFFE5;
 }
 
-.home-team h1{
+.home-team h1 {
     color: peru;
-    font-family:'Rokkitt', serif;
+    font-family: 'Rokkitt', serif;
 }
 
-.home-team-list{
+.home-team-list {
     background-color: white;
     border-radius: 10px;
     box-shadow: -4px 2px 20px 8px;
 }
 
-.home-team-list:hover{
+.home-team-list:hover {
     animation: pincit 1s ease-in-out alternate-reverse both;
 }
 
-@keyframes pincit{
-    0%{
+@keyframes pincit {
+    0% {
         transform: translateY(0px);
     }
-    100%{
+    100% {
         transform: translateY(-10px);
+    }
+}
+
+@media (min-width: 992px) {
+    .home-persentase {
+        width: 500px;
+        height: 20px;
+        background-color: grey;
+        border-radius: 5px;
+    }
+    .home-skala {
+        height: 15px;
+        background-color: lightskyblue;
+        animation: skala 3s ease-in-out infinite alternate-reverse both;
+        border-radius: 5px;
+    }
+    .home-skala-90 {
+        height: 15px;
+        background-color: lightskyblue;
+        animation: skala-90 3s ease-in-out infinite alternate-reverse both;
+        border-radius: 5px;
+    }
+    .home-skala-80 {
+        height: 15px;
+        background-color: lightskyblue;
+        animation: skala-80 3s ease-in-out infinite alternate-reverse both;
+        border-radius: 5px;
+    }
+    .home-skala-60 {
+        height: 15px;
+        background-color: lightskyblue;
+        animation: skala-60 3s ease-in-out infinite alternate-reverse both;
+        border-radius: 5px;
+    }
+    @keyframes skala {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 500px;
+        }
+    }
+    @keyframes skala-90 {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 450px;
+        }
+    }
+    @keyframes skala-80 {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 420px;
+        }
+    }
+    @keyframes skala-60 {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 300px;
+        }
     }
 }
